@@ -1,12 +1,12 @@
 html,
 body {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cartao {
     width: 12.6rem;
-    height: 27.3rem;
+    height:50rem;
     padding: 1rem;
     margin: 1rem auto;
     border-radius: .7rem;
