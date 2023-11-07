@@ -1,0 +1,114 @@
+/* Estilo para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e9d1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #f59e52;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  /* Estilo para a navegação */
+  nav {
+    background-color: #f59e52;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Estilo para seção de produtos */
+  .product-section {
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #f59e52;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Adicione este estilo para centralizar as imagens e adicionar uma borda */
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #f59e52;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .produtoImagem img {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* Estilo para os produtos */
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #f59e52;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .produtoImagem img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* Adicione estilos para controlar o layout das colunas */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Estilo para controlar o número de produtos por coluna */
+  .produto {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+  }
+  
+ 
