@@ -1,0 +1,24 @@
+@import url('estilo.css');
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: .7rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+input[type="submit"] {
+    width: 25rem;
+    background-color: #f59e52;
+    color: #fff;
+}
